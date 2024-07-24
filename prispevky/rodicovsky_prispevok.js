@@ -1,4 +1,4 @@
-import { STAV_OPATERY_VO_VASEJ_OPATERE, STAV_OPATERY_V_OPATERE_OBOCH_RODICOV, ZDRAVONA_SITUACIA_DIETATA_CHRONICKE_OCHORENIE } from "../constants.js";
+import { STAV_OPATERY_VO_VASEJ_OPATERE, STAV_OPATERY_V_OPATERE_OBOCH_RODICOV, DIETA_ZDRAVONA_SITUACIA_CHRONICKE_OCHORENIE } from "../constants.js";
 import { getChildren } from "../get_children.js";
 import { monthDiff, parseIsoDate } from "../app_util.js";
 
@@ -16,7 +16,7 @@ export function evaluate(payload, date) {
       .filter((d) => d).length > 0;
 
   function spocitajPrispevok(d) {
-    if (d.dieta_zdravotna_situacia.includes(ZDRAVONA_SITUACIA_DIETATA_CHRONICKE_OCHORENIE)) {
+    if (d.dieta_zdravotna_situacia.includes(DIETA_ZDRAVONA_SITUACIA_CHRONICKE_OCHORENIE)) {
       return {
         splnuje: monthDiff(parseIsoDate(d.birth_date), new Date()) <= 72,
         vyska: d.dieta_materska_davka_do != null ? 473.3 : 345.2,

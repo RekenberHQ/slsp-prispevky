@@ -18,6 +18,7 @@ export function getChildren(payload) {
       dieta_materska_davka_do: payload.dieta_materska_davka_do,
       dieta_poberate_rodicovsky_prispevok: payload.dieta_poberate_rodicovsky_prispevok,
       dieta_navstevuje_skolu: payload.dieta_navstevuje_skolu,
+      dieta_ostatne_informacie: payload.dieta_ostatne_informacie,
     });
   }
 
@@ -38,6 +39,7 @@ export function getChildren(payload) {
       dieta_materska_davka_do: payload.dieta_materska_davka_do1,
       dieta_poberate_rodicovsky_prispevok: payload.dieta_poberate_rodicovsky_prispevok1,
       dieta_navstevuje_skolu: payload.dieta_navstevuje_skolu1,
+      dieta_ostatne_informacie: payload.dieta_ostatne_informacie1,
     });
   }
 
@@ -58,6 +60,7 @@ export function getChildren(payload) {
       dieta_materska_davka_do: payload.dieta_materska_davka_do2,
       dieta_poberate_rodicovsky_prispevok: payload.dieta_poberate_rodicovsky_prispevok2,
       dieta_navstevuje_skolu: payload.dieta_navstevuje_skolu2,
+      dieta_ostatne_informacie: payload.dieta_ostatne_informacie2,
     });
   }
 
@@ -78,6 +81,7 @@ export function getChildren(payload) {
       dieta_materska_davka_do: payload.dieta_materska_davka_do3,
       dieta_poberate_rodicovsky_prispevok: payload.dieta_poberate_rodicovsky_prispevok3,
       dieta_navstevuje_skolu: payload.dieta_navstevuje_skole3,
+      dieta_ostatne_informacie: payload.dieta_ostatne_informacie3,
     });
   }
 
@@ -98,6 +102,7 @@ export function getChildren(payload) {
       dieta_materska_davka_do: payload.dieta_materska_davka_do4,
       dieta_poberate_rodicovsky_prispevok: payload.dieta_poberate_rodicovsky_prispevok4,
       dieta_navstevuje_skolu: payload.dieta_navstevuje_skolu4,
+      dieta_ostatne_informacie: payload.dieta_ostatne_informaci4,
     });
   }
 
