@@ -1,6 +1,9 @@
 .PHONY: all
 
-all: test_prispevok_pri_narodeni_dietata
+all: test_prispevok_pri_narodeni_dietata test_rodicovsky_prispevok
 
 test_prispevok_pri_narodeni_dietata:
 	node tests/prispevok_pri_narodeni_dietata/test_prispevok_pri_narodeni_dietata.js
+
+test_rodicovsky_prispevok:
+	node tests/rodicovsky_prispevok/test_rodicovsky_prispevok.js
