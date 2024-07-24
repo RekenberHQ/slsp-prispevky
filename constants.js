@@ -1,0 +1,1 @@
+export const ZDRAVONA_SITUACIA_TEHOTNA = "Ste momentálne tehotná"
