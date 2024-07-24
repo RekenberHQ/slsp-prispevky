@@ -1,6 +1,6 @@
 .PHONY: all
 
-all: test_prispevok_pri_narodeni_dietata test_rodicovsky_prispevok test_pridavok_na_dieta test_prispevok_na_viac_sucasne_narodenych_deti test_prispevok_na_starostlivost test_tehotensky_prispevok test_tehotenske_stipendium test_materska_dovolenka test_pomoc_v_hmotnej_nudzi test_vyzivne
+all: test_prispevok_pri_narodeni_dietata test_rodicovsky_prispevok test_pridavok_na_dieta test_prispevok_na_viac_sucasne_narodenych_deti test_prispevok_na_starostlivost test_tehotensky_prispevok test_tehotenske_stipendium test_materska_dovolenka test_pomoc_v_hmotnej_nudzi test_vyzivne test_nahradne_vyzivne
 
 test_prispevok_pri_narodeni_dietata:
 	node tests/prispevok_pri_narodeni_dietata/test_prispevok_pri_narodeni_dietata.js
@@ -31,3 +31,6 @@ test_pomoc_v_hmotnej_nudzi:
 
 test_vyzivne:
 	node tests/vyzivne/test_vyzivne.js
+
+test_nahradne_vyzivne:
+	node tests/nahradne_vyzivne/test_nahradne_vyzivne.js
