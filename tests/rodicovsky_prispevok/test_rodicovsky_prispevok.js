@@ -18,4 +18,12 @@ const client3 = loadJsonSync(`${RESOURCES}/client_3.json`);
 const result3 = evaluate(client3, date);
 assert(deepEqual(result3, { isEntitled: true, customData: { amount: 473.3, duration: 3 } }));
 
+const client4 = loadJsonSync(`${RESOURCES}/client_4.json`);
+const result4 = evaluate(client4, date);
+assert(deepEqual(result4, { isEntitled: false, customData: {} }));
+
+const client5 = loadJsonSync(`${RESOURCES}/client_5.json`);
+const result5 = evaluate(client5, date);
+assert(deepEqual(result5, { isEntitled: false, customData: {} }));
+
 console.log("OK");

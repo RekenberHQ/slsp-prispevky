@@ -11,7 +11,7 @@ export function evaluate(payload, date) {
     detiVOpatere
       .map(
         (d) =>
-          d.dieta_poberate_rodicovsky_prispevok || d.dieta_prispevok_na_starostlivost || (d.dieta_poberate_matersku_davku && d.dieta_materska_davka_do == null)
+          d.dieta_prispevok_na_starostlivost || (d.dieta_poberate_matersku_davku && d.dieta_materska_davka_do == null)
       )
       .filter((d) => d).length > 0;
 
