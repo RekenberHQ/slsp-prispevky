@@ -1,6 +1,6 @@
 .PHONY: all
 
-all: test_prispevok_pri_narodeni_dietata test_rodicovsky_prispevok test_pridavok_na_dieta test_prispevok_na_viac_sucasne_narodenych_deti
+all: test_prispevok_pri_narodeni_dietata test_rodicovsky_prispevok test_pridavok_na_dieta test_prispevok_na_viac_sucasne_narodenych_deti test_prispevok_na_starostlivost
 
 test_prispevok_pri_narodeni_dietata:
 	node tests/prispevok_pri_narodeni_dietata/test_prispevok_pri_narodeni_dietata.js
@@ -13,3 +13,6 @@ test_pridavok_na_dieta:
 
 test_prispevok_na_viac_sucasne_narodenych_deti:
 	node tests/prispevok_na_viac_sucasne_narodenych_deti/test_prispevok_na_viac_sucasne_narodenych_deti.js
+
+test_prispevok_na_starostlivost:
+	node tests/prispevok_na_starostlivost/test_prispevok_na_starostlivost.js
