@@ -1,4 +1,4 @@
-import { ZDRAVONA_SITUACIA_TEHOTNA } from "./constants.js";
+import { ZDRAVONA_SITUACIA_TEHOTNA } from "../constants.js";
 
 export function evaluate(payload, date) {
   if (payload.vy_zdravotna_situacia.includes(ZDRAVONA_SITUACIA_TEHOTNA)) {

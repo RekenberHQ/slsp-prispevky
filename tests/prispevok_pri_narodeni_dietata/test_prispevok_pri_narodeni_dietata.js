@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-import { evaluate } from "../../prispevok_pri_narodeni_dietata.js";
+import { evaluate } from "../../prispevky/prispevok_pri_narodeni_dietata.js";
 import { loadJsonSync, assert, deepEqual } from "../../util.js";
 
 const RESOURCES = "tests/prispevok_pri_narodeni_dietata/resources";
