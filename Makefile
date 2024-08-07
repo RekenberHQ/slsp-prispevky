@@ -47,3 +47,6 @@ test_prispevok_na_opatrovanie:
 test_prispevok_na_osobnu_asistenciu:
 	node tests/prispevok_na_osobnu_asistenciu/test_prispevok_na_osobnu_asistenciu.js
 
+test_prispevok_na_komenzaciu_zvysenych_nakladov_stravovanie:
+	node tests/prispevok_na_komenzaciu_zvysenych_nakladov_stravovanie/test_prispevok_na_komenzaciu_zvysenych_nakladov_stravovanie.js
+
