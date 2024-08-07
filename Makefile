@@ -37,3 +37,6 @@ test_nahradne_vyzivne:
 
 test_otcovske:
 	node tests/otcovske/test_otcovske.js
+
+test_prispevok_na_zvysenu_splatku_uveru:
+	node tests/prispevok_na_zvysenu_splatku_uveru/test_prispevok_na_zvysenu_splatku_uveru.js
