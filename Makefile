@@ -43,3 +43,7 @@ test_prispevok_na_zvysenu_splatku_uveru:
 
 test_prispevok_na_opatrovanie:
 	node tests/prispevok_na_opatrovanie/test_prispevok_na_opatrovanie.js
+
+test_prispevok_na_osobnu_asistenciu:
+	node tests/prispevok_na_osobnu_asistenciu/test_prispevok_na_osobnu_asistenciu.js
+
