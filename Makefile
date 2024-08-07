@@ -40,3 +40,6 @@ test_otcovske:
 
 test_prispevok_na_zvysenu_splatku_uveru:
 	node tests/prispevok_na_zvysenu_splatku_uveru/test_prispevok_na_zvysenu_splatku_uveru.js
+
+test_prispevok_na_opatrovanie:
+	node tests/prispevok_na_opatrovanie/test_prispevok_na_opatrovanie.js

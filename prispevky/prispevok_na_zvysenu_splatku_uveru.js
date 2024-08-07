@@ -1,5 +1,3 @@
-import { ZDRAVONA_SITUACIA_TEHOTNA } from "../constants.js";
-
 export function evaluate(payload, date) {
   const doloKZvyseniu = payload.byvanie_doslo_k_zvyseniu_vyska != null;
   const mesacnyPrijem = (payload.vy_prijmy_zamestnanie_mesacny_prijem || 0) * 1.4; // potrebujeme odhad hrubeho platu
