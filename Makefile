@@ -34,3 +34,6 @@ test_vyzivne:
 
 test_nahradne_vyzivne:
 	node tests/nahradne_vyzivne/test_nahradne_vyzivne.js
+
+test_otcovske:
+	node tests/otcovske/test_otcovske.js
