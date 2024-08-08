@@ -18,3 +18,5 @@ export const CLEN_V_DOMACNOSTI_ZDRAVOTNA_SITUACIA_SPECIALNE_STRAVOVANIE = "Jej z
 export const CLEN_V_DOMACNOSTI_ZDRAVOTNA_SITUACIA_ZVYSENA_HYGIENA = "Jej zdravotný stav vyžaduje zvýšenú hygienu"
 export const CLEN_V_DOMACNOSTI_ZDRAVOTNA_SITUACIA_MOTOROVE_VOZIDLO = "Jej zdravotný stav vyžaduje špeciálne úpravy a údržbu motorového vozidla"
 export const CLEN_V_DOMACNOSTI_ZDRAVOTNA_SITUACIA_PES = "Jej zdravotný stav vyžaduje psa so špeciálnym výcvikom"
+
+export const UMRTIE_VZTAH_K_ZOSNULEMU_MANZEL = "manžel/manželka"
