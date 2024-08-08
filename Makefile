@@ -68,3 +68,6 @@ test_pozostalostna_urazova_renta:
 test_jednorazove_odskodnenie:
 	node tests/jednorazove_odskodnenie/test_jednorazove_odskodnenie.js
 
+test_vdovsky_dochodok:
+	node tests/vdovsky_dochodok/test_vdovsky_dochodok.js
+
