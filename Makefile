@@ -71,3 +71,6 @@ test_jednorazove_odskodnenie:
 test_vdovsky_dochodok:
 	node tests/vdovsky_dochodok/test_vdovsky_dochodok.js
 
+test_sirotsky_dochodok:
+	node tests/sirotsky_dochodok/test_sirotsky_dochodok.js
+
