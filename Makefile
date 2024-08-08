@@ -62,3 +62,6 @@ test_prispevok_na_komenzaciu_zvysenych_nakladov_pes:
 test_nahrada_nakladov_spojenych_s_pohrebom:
 	node tests/nahrada_nakladov_spojenych_s_pohrebom/test_nahrada_nakladov_spojenych_s_pohrebom.js
 
+test_pozostalostna_urazova_renta:
+	node tests/pozostalostna_urazova_renta/test_pozostalostna_urazova_renta.js
+
