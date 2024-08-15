@@ -54,7 +54,7 @@
   "dieta_typ_pobytu": "Trvalý",
   "feathery_form_id": "D6UxUp",
   "feathery_user_id": "95394d07-3d1b-4cbe-b1c4-922f366a5c4b",
-  "dieta_stav_opatery": "Vo vašej opatere",
+  "dieta_stav_opatery": "V mojej opatere",
   "dieta_stredne_meno": "",
   "feathery_form_name": "Prispevky",
   "vy_datum_narodenia": "2024-07-10",
@@ -72,7 +72,7 @@
   "vy_prijmy_poberate_dochodok": false,
   "dieta_poberate_matersku_davku": false,
   "vy_prijmy_podnikate_na_zivnost": false,
-  "dieta_adresa_dietata_sa_zhoduje": "Pobyt je na Vašej adrese",
+  "dieta_adresa_dietata_sa_zhoduje": "Pobyt je na mojej adrese",
   "dieta_prispevok_na_starostlivost": true,
   "dieta_poberate_rodicovsky_prispevok": false,
   "vy_prijmy_poberate_podporu_v_nezamestnanosti": false
