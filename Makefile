@@ -74,3 +74,6 @@ test_vdovsky_dochodok:
 test_sirotsky_dochodok:
 	node tests/sirotsky_dochodok/test_sirotsky_dochodok.js
 
+test_prispevok_na_pohreb:
+	node tests/prispevok_na_pohreb/test_prispevok_na_pohreb.js
+
