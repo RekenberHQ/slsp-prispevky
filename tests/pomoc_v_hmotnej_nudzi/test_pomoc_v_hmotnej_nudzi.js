@@ -30,4 +30,8 @@ assert(
   })
 );
 
+const client5 = loadJsonSync(`${RESOURCES}/client_5.json`);
+const result5 = evaluate(client5, date);
+assert(deepEqual(result5, { isEntitled: false, customData: {} }));
+
 console.log("OK");

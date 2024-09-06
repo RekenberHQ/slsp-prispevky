@@ -21,6 +21,7 @@ export function evaluate(payload, date) {
       monthDiff(parseIsoDate(d.birth_date), new Date()) <= 18 * 12 ||
       (monthDiff(parseIsoDate(d.birth_date), new Date()) <= 25 * 12 && d.dieta_navstevuje_skolu !== DIETA_SKOLSKA_DOCHADZKA_NENAVSTEVUJE_SKOLU)
   );
+  var poberaVylucovaciPrispevok = nezaopatreneDeti.filter((d) => d.dieta_poberate_rodicovsky_prispevok || d.dieta_prispevok_na_starostlivost).length > 0;
 
   var zivotneMinimum = 273.99;
   if (payload.vy_zijete_s_manzelom_v_domacnosti === "Áno") {
@@ -53,7 +54,7 @@ export function evaluate(payload, date) {
     coalesce(payload.partner_prijmy_sirotsky_dochodok_vyska) +
     coalesce(payload.partner_prijmy_poberate_podporu_v_nezamestnanosti_vyska);
 
-  if (prijemDomacnosti < zivotneMinimum && !studuje) {
+  if (prijemDomacnosti < zivotneMinimum && !studuje && !poberaVylucovaciPrispevok) {
     var davkaVHmotnejNudzi = 0;
     if (payload.vy_zijete_s_manzelom_v_domacnosti === "Áno") {
       if (nezaopatreneDeti.length === 0) {
